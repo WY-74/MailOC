@@ -6,6 +6,7 @@
 ```python
 import smtplib
 from email.mime.multipart import MIMEMultipart
+from mail_oc import MailOC
 
 # mime
 mime = MIMEMultipart('related')
